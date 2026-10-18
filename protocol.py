@@ -22,7 +22,7 @@ from sklearn.metrics import mean_absolute_error, r2_score
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
-from prep import FIGURES, OUT, load_checkpoint
+from prep import OUT, load_checkpoint, save
 
 plt.rcParams.update({"pdf.fonttype": 42, "ps.fonttype": 42})  # embed TrueType, not Type 3
 
@@ -600,8 +600,7 @@ def certification_figure(results: dict[str, tuple[pd.DataFrame, str, float]]) ->
         a.tick_params(labelsize=7)
         a.legend(fontsize=5, loc="lower right", labelspacing=0.3, handlelength=1.2, handletextpad=0.4, borderpad=0.3)
     fig.tight_layout()
-    fig.savefig(FIGURES / "fig4_certification_curve.pdf", bbox_inches="tight")
-    plt.close(fig)
+    save(fig, "fig4_certification_curve", bbox_inches="tight")
 
 
 def run_slice(label: str, df: pd.DataFrame, n_boot: int, seed: int) -> tuple[dict, dict[str, pd.DataFrame], pd.DataFrame]:

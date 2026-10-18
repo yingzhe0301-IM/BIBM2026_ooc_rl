@@ -20,7 +20,7 @@ from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
 
 import protocol as P
-from prep import FIGURES, OUT
+from prep import OUT, save
 
 ALPHA = P.ALPHA
 DELTAS = [round(-0.06 + 0.01 * i, 2) for i in range(19)]  # -0.06 to 0.12 in steps of 0.01
@@ -308,8 +308,7 @@ def stress_figure(results: Path) -> None:
         ]
         fig.legend(handles=handles, loc="outside lower center", ncol=2, frameon=False,
                    fontsize=6.8, handlelength=1.8, columnspacing=1.8, handletextpad=0.6)
-        fig.savefig(FIGURES / "fig5_stress.pdf", bbox_inches="tight")
-        plt.close(fig)
+        save(fig, "fig5_stress", bbox_inches="tight")
 
 
 def main() -> None:

@@ -13,7 +13,7 @@ from matplotlib import font_manager
 from matplotlib.patches import Circle, FancyBboxPatch, PathPatch, Rectangle
 from matplotlib.path import Path as MplPath
 
-from prep import ARM_COLORS, FIGURES, PATIENT_COLORS
+from prep import ARM_COLORS, PATIENT_COLORS, save
 
 INK, MUTE, RULE = "#3a3f45", "#7a8088", "#c3c8ce"
 LOW, HIGH = ARM_COLORS["low"], ARM_COLORS["high"]
@@ -133,8 +133,7 @@ def main() -> None:
             text(ax, x0 + 14.5, top - 8.0, title, 6.6)
             text(ax, x0 + 14.5, top - 16.5, sub, 5.2, MUTE)
             draw(ax, x0 + 6.0, M + 5.0, x0 + CARD_W - 6.0, top - 24.0)
-        fig.savefig(FIGURES / "fig1_overview.pdf")
-        plt.close(fig)
+        save(fig, "fig1_overview")
 
 
 if __name__ == "__main__":

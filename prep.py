@@ -28,6 +28,7 @@ from openpyxl import load_workbook
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "out"
 FIGURES = ROOT / "paper" / "overleaf_ready" / "figures"
+DOCS = ROOT / "docs"  # PNG copies of the figures for the README
 RAW = {
     "schuster": ("https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-19058-4/MediaObjects/"
                  "41467_2020_19058_MOESM13_ESM.xlsx", "41467_2020_19058_MOESM13_ESM.xlsx"),
@@ -67,6 +68,14 @@ FIG_STYLE = {
 ARM_COLORS = {"low": "#4C72B0", "high": "#DD8452"}
 PATIENT_COLORS = {"1": "#30638E", "2": "#D1495B", "3": "#66A182"}  # Schuster patients
 FROSTED = {"frameon": True, "fancybox": True, "facecolor": "#fbfaf7", "edgecolor": "#d4d2cc", "framealpha": 0.6}
+
+
+def save(fig: plt.Figure, name: str, **kw) -> None:
+    """Write a figure to the paper as PDF and to docs/ as PNG for the README."""
+    fig.savefig(FIGURES / f"{name}.pdf", **kw)
+    DOCS.mkdir(exist_ok=True)
+    fig.savefig(DOCS / f"{name}.png", dpi=300, **kw)
+    plt.close(fig)
 
 
 def download(raw_dir: Path) -> dict[str, Path]:
@@ -223,8 +232,7 @@ def figure_checkpoint(workbook: Path) -> None:
         # Legends fill column by column: patients on the first row, arms on the second.
         fig.legend(handles=[pats[0], arms[0], pats[1], arms[1], pats[2]], loc="outside upper center", ncol=3,
                    fontsize=6.5, handletextpad=0.3, columnspacing=1.0, **FROSTED)
-        fig.savefig(FIGURES / "fig2_checkpoint_scatter.pdf", bbox_inches="tight")
-        plt.close(fig)
+        save(fig, "fig2_checkpoint_scatter", bbox_inches="tight")
 
 
 def figure_spiller(csv_path: Path) -> None:
@@ -251,8 +259,7 @@ def figure_spiller(csv_path: Path) -> None:
             ax.legend(loc="upper left", fontsize=6, **FROSTED)
         axes[-1].set_xlabel("Day")
         fig.supylabel("Dead-organoid fraction", fontsize=8)
-        fig.savefig(FIGURES / "fig3_spiller_trajectories.pdf", bbox_inches="tight")
-        plt.close(fig)
+        save(fig, "fig3_spiller_trajectories", bbox_inches="tight")
 
 
 def main() -> None:
