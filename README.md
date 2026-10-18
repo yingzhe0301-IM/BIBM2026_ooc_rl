@@ -34,3 +34,7 @@ The processed tables are derived from the following public releases and remain s
 ## Dataset search
 
 `dataset_search.py` reruns the queries of the 17-18 October 2026 search and writes `queries.csv` and `records.csv`. `screening.csv` holds one row per record with the stage at which it left and the reason, and `studies.csv` groups the full-text assessments by study. Title, abstract, and full-text screening against the criteria in the `dataset_search.py` docstring was carried out with Claude (Anthropic) agents, and the qualifying cohorts were checked against their released files.
+
+## License
+
+The [MIT License](LICENSE) covers the code, the result tables in `out/results`, and the search log in `out/search`. The processed tables in `out/processed` keep the terms of their sources above, and the paper source in `paper/` keeps the authors' copyright, which transfers to IEEE on publication.
