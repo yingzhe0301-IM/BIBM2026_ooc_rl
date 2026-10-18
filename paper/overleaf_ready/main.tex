@@ -6,7 +6,6 @@
 \usepackage{booktabs}
 \usepackage{cite}
 \usepackage{graphicx}
-\usepackage{makecell}
 \usepackage{siunitx}
 \usepackage{url}
 \usepackage{microtype}
@@ -85,7 +84,7 @@ A defensible de-escalation analysis needs three pieces in the same dataset: a de
 The Schuster slice comes from three pancreatic-cancer organoid lines, each derived from a distinct patient and screened across four chemotherapy families, namely FOLFIRINOX, FOLFIRI, FOLFOX, and Gemcitabine + 5FU \cite{schuster2020}. We use the per-well fluorescence time series of its schedule experiment, which the article releases in its source-data file (sheet Figure~5a--b). Every family is run under two schedules that share a 4-hour exposure window and then split, one arm stopping at the checkpoint and the other continuing to 72 hours, so both arms are observed at a single shared checkpoint. Two fluorescence channels track each well over the window, a propidium-iodide death signal and a matched Caspase apoptosis signal. Raw fluorescence drifts across wells and patients, so every marker is read as the negative-control log-ratio \(\log(x/\bar{x}_{\mathrm{neg}})\), where \(\bar{x}_{\mathrm{neg}}\) is the matched negative-control mean for the same patient, marker, and time point. We keep the two scheduled arms of the four families at the checkpoint and the endpoint, set aside the third, time-modulated schedule, and use negative-control wells only for normalization. This yields 78 well-level episodes, 39 stopping and 39 continuing, each with a complete checkpoint state and final death endpoint. Figure~\ref{fig:checkpoint} shows that wells with higher checkpoint death tend to reach higher final death within each patient.
 
 \begin{table}[t]
-\caption{Patient-to-episode composition of the benchmark. Every well, or tracked organoid for Wells, is one episode. Replicates count wells per family and arm, or organoids per arm for Wells, and lists follow the patient order of Table~\ref{tab:cert}.}
+\caption{Benchmark composition. Replicates count wells per family and arm, or organoids per arm for Wells.}
 \label{tab:composition}
 \centering
 \footnotesize
@@ -174,7 +173,7 @@ The certificate uses a paired two-stage cluster bootstrap with \(\alpha=0.05\). 
 On Schuster, the checkpoint carries within-patient order. Adding checkpoint death lowers MAE from 0.266 to 0.189 and raises the within-patient rank correlation from 0.56 to 0.75 (Table~\ref{tab:p1}). Inside fixed patient, family, and arm cells, checkpoint and final death have a mean rank correlation of 0.60, positive in 18 of 22 cells. The matched apoptosis channel adds nothing beyond death, so later stages carry checkpoint death with family. On Spiller, the pre-treatment state carries no such signal. It raises MAE from 0.104 to 0.117, leaves \(\rho\) near 0.60, and has a mean within-cell rank correlation of \(-0.11\). A Spiller rule can therefore act only between patients or families, and we read its certificate as evidence about that coarser structure.
 
 \begin{table}[t]
-\caption{Stage~1 leave-one-patient-out endpoint prediction. MAE measures level, and \(\rho\), the within-patient Spearman correlation between prediction and endpoint, measures ordering. The state is checkpoint death for Schuster, pre-treatment dead fraction for Spiller, and the pre-irradiation caspase reading for Wells. The second channel is apoptosis for Schuster and organoid size for Wells.}
+\caption{Stage~1 leave-one-patient-out prediction of the endpoint. The second channel is apoptosis for Schuster and organoid size for Wells.}
 \label{tab:p1}
 \centering
 \footnotesize
@@ -197,7 +196,7 @@ Family + arm & 0.266 & 0.56 & 0.104 & 0.60 & 0.106 & 0.08 \\
 Stage 2 retains the family-specific threshold rule on Schuster and the one-step CQL rule on Spiller. Re-deriving candidates across \(\Lambda\) keeps both retentions, except at \(2\lambda_0\) on Spiller, where the fixed low-dose arm takes the lead. Table~\ref{tab:cert} reports their certification next to the other prespecified classes and the radiation slice, and Fig.~\ref{fig:decision} draws the margin of each chemotherapy rule along the \(\lambda/\lambda_0\) axis.
 
 \begin{table*}[t]
-\caption{Certification of the prespecified lower-burden classes against the higher-burden baseline. Burden saved is in hours for Schuster, in \si{\micro\molar\hour} for Spiller, and in Gy for Wells. Per-patient \(\Delta\) lists the patient-level endpoint contrasts that the clustered bounds resample. Critical ratios are given for the wild-cluster screen, the paired certificate, and the certificate adjusted for retaining one of three classes. Retained rules in bold.}
+\caption{Certification against the higher-burden baseline. Saved burden is in hours, \si{\micro\molar\hour}, and Gy for Schuster, Spiller, and Wells, and retained rules are in bold.}
 \label{tab:cert}
 \centering
 \footnotesize
@@ -206,7 +205,7 @@ Stage 2 retains the family-specific threshold rule on Schuster and the one-step 
 \toprule
  & & & & & & \multicolumn{3}{c}{\(\lambda^\ast/\lambda_0\)} \\
 \cmidrule(l){7-9}
-Task & Policy & \makecell[r]{Burden\\saved} & \makecell[r]{\(\Delta\)\\endpoint} & Per-patient \(\Delta\) & \makecell[r]{Paired\\LCB} & Screen & Certificate & Adjusted \\
+Slice & Policy & Saved & \(\Delta\) & Per-patient \(\Delta\) & Paired LCB & Screen & Certificate & Adjusted \\
 \midrule
 Schuster & Always stop & 68.0 (94\%) & \(-0.059\) & \(-0.141\) / \(-0.058\) / \(+0.024\) & \(-0.169\) & 1.94 & 2.89 & 3.41 \\
  & \textbf{Family-specific threshold} & 26.3 (36\%) & \(+0.014\) & \(-0.034\) / \(+0.035\) / \(+0.039\) & \(-0.044\) & 0.80 & \textbf{1.95} & 2.69 \\
@@ -239,7 +238,7 @@ On Spiller, the CQL rule keeps the high dose for the two lines with a low baseli
 Table~\ref{tab:audit} compares the retained rules with the audit classes. On Schuster, every state-free comparator certifies later than the threshold rule. The family-only rule and CQL without the state need \(3.34\lambda_0\) and \(3.35\lambda_0\), against \(1.95\lambda_0\) for the threshold rule, which shows that the checkpoint carries the Schuster result beyond the family structure. On Spiller, the same state-free rules save only 15\% of the burden. The more flexible learners trail the retained rules on both slices. The random-forest T-learner, which estimates each well's treatment effect, loses the most endpoint of any audit class, and depth-limited trees certify only above \(2.7\lambda_0\).
 
 \begin{table}[t]
-\caption{Audit classes, fit and certified like the prespecified classes on held-out patients and excluded from retention. Columns give the burden saved as a share of the baseline, the endpoint contrast \(\Delta\) against the baseline, the certificate's critical ratio, and the share of wells whose action matches the prespecified CQL rule at \(\eta=1\).}
+\caption{Audit classes, evaluated like the prespecified classes and excluded from retention. Agreement is the share of wells that act as the CQL rule at \(\eta=1\).}
 \label{tab:audit}
 \centering
 \footnotesize
