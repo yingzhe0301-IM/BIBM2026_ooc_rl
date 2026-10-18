@@ -34,16 +34,7 @@ Each slice observes both arms after a shared checkpoint, a state read before the
 </p>
 <p align="center"><em>Left, Schuster: within each patient, wells with higher checkpoint death tend to reach higher final death. Right, Spiller: the dose arms overlap before dosing and separate toward day 7.</em></p>
 
-The benchmark comes from a documented search of public resources on 17 and 18 October 2026.
-
-| Step | Count |
-| --- | ---: |
-| Unique records from Europe PMC (titles and abstracts, full texts naming a repository, citations of Schuster and Spiller), Zenodo, Figshare, Dryad, the BioImage Archive, BioStudies, the Image Data Resource, and GitHub | 3597 |
-| Excluded on title, abstract, or repository description | 3355 |
-| Records assessed against the full text and the released files, from 193 studies | 242 |
-| Studies that ran the design with data available on request only | 18 |
-| Studies that ran the design with released files of unconfirmed per-well content | 4 |
-| Studies meeting all four conditions: Schuster, Spiller, Wells, and the 2026 SCOPE preprint | 4 |
+A search of the literature and public data repositories screened 3597 records for this structure and assessed 242 of them against the full text and the released files. Four studies qualified, namely the three slices above and a 2026 preprint (SCOPE) that repeats the Spiller design with a dose series, which is the next replication cohort.
 
 ## Results
 
