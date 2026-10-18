@@ -1,5 +1,6 @@
 \ifdefined\pdfminorversion\pdfminorversion=4 \pdfobjcompresslevel=0 \fi % PDF 1.4 (Acrobat 5) for IEEE Xplore
 \documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts % allows \IEEEaftertitletext in conference mode
 
 \usepackage[T1]{fontenc} % underscores in URLs are real glyphs, so the text layer copies them
 \usepackage{amsmath,amssymb}
@@ -8,6 +9,7 @@
 \usepackage{graphicx}
 \usepackage{siunitx}
 \usepackage{url}
+\usepackage{fontawesome5}
 \usepackage{microtype}
 
 \graphicspath{{figures/}}
@@ -35,6 +37,7 @@ yszhang@bwh.harvard.edu}
 United States\\
 ming\_shao@uml.edu}}
 
+\IEEEaftertitletext{\vspace{-1.7\baselineskip}\centerline{\small\faGithub~\url{https://github.com/yingzhe0301-IM/BIBM2026_ooc_rl}}\vspace{0.7\baselineskip}}
 \maketitle
 
 \begin{abstract}
@@ -60,7 +63,7 @@ However, learning a full treatment policy across a trajectory would need patient
 
 The estimand is the set of decision-point contexts where treatment burden can be reduced while final killing stays within that margin. Burden means exposure duration or dose, together with the cost, side-effect risk, and resource use they carry. We let the margin grow with the burden a rule saves, priced at an exchange rate that the decision context sets. This construction follows the net-benefit reading of cost-effectiveness analysis, where a less effective but less costly option is acceptable once the cost it saves, valued at a stated threshold, outweighs the effect it gives up \cite{stinnett1998, fenwick2001}. Certification therefore returns a threshold rate, above which the lower-burden rule is non-inferior, and we read it against the rate at which full de-escalation breaks even in the data.
 
-A three-stage protocol produces this threshold by characterizing what the decision-point state supports, ranking lower-burden rules by patient-weighted doubly robust value, and certifying the leading rule under a patient-clustered paired bootstrap bound. Data-calibrated simulations check its error control after candidate selection at three to five patients and size the cohort that confirmation requires. The paper contributes the certification protocol with its operating-characteristic audit, an organoid de-escalation benchmark built from a documented search of public data, certified burden-price thresholds for an exposure-duration rule and a dose-intensity rule, and a replication of the frozen protocol on a radiation cohort.\footnote{\url{https://github.com/yingzhe0301-IM/BIBM2026_ooc_rl} holds the code, processed data, and search log.}
+A three-stage protocol produces this threshold by characterizing what the decision-point state supports, ranking lower-burden rules by patient-weighted doubly robust value, and certifying the leading rule under a patient-clustered paired bootstrap bound. Data-calibrated simulations check its error control after candidate selection at three to five patients and size the cohort that confirmation requires. The paper contributes the certification protocol with its operating-characteristic audit, an organoid de-escalation benchmark built from a documented search of public data, certified burden-price thresholds for an exposure-duration rule and a dose-intensity rule, and a replication of the frozen protocol on a radiation cohort.
 
 \section{Related Work}
 
@@ -107,7 +110,7 @@ Wells & 1 each & 33--111 & 193 / 184 / 155 / 70 / 106 & 708 \\
 \label{fig:checkpoint}
 \end{figure}
 
-The Spiller slice comes from four colorectal organoid lines, each from a distinct patient \cite{spiller2021}. We use the organoid-level table that the authors release in their public code repository\footnote{\url{https://github.com/eitm-org/organoid_drug_response}, file \texttt{data/consolidated.csv}.}. Brightfield images track organoids over seven days, and a machine-learning classifier labels each organoid as live or dead before wells are summarized by dead fraction. Here the action is dose. Irinotecan is given at 20 or 40~\si{\micro\molar} and oxaliplatin at 2 or 20~\si{\micro\molar} for the same seven days, so burden is the concentration-time of the assigned arm and any saving comes from lower concentration. We keep the lines screened at both doses of a contrast, four for irinotecan and three for oxaliplatin, which gives 42 well-level episodes with three replicates per patient, family, and arm and no missing readings. Both arms start at day~0, so the day-0 dead fraction is the only reading that precedes the action. We use it as the state and the day-7 dead fraction as the endpoint. Figure~\ref{fig:spiller} shows the dose arms overlapping before dosing begins and widening toward the endpoint.
+The Spiller slice comes from four colorectal organoid lines, each from a distinct patient \cite{spiller2021}. We use the organoid-level table that the authors release in their public code repository\footnote{\url{https://github.com/eitm-org/organoid_drug_response}}. Brightfield images track organoids over seven days, and a machine-learning classifier labels each organoid as live or dead before wells are summarized by dead fraction. Here the action is dose. Irinotecan is given at 20 or 40~\si{\micro\molar} and oxaliplatin at 2 or 20~\si{\micro\molar} for the same seven days, so burden is the concentration-time of the assigned arm and any saving comes from lower concentration. We keep the lines screened at both doses of a contrast, four for irinotecan and three for oxaliplatin, which gives 42 well-level episodes with three replicates per patient, family, and arm and no missing readings. Both arms start at day~0, so the day-0 dead fraction is the only reading that precedes the action. We use it as the state and the day-7 dead fraction as the endpoint. Figure~\ref{fig:spiller} shows the dose arms overlapping before dosing begins and widening toward the endpoint.
 
 \begin{figure}[t]
 \centering
@@ -116,7 +119,7 @@ The Spiller slice comes from four colorectal organoid lines, each from a distinc
 \label{fig:spiller}
 \end{figure}
 
-The Wells slice comes from organoids of five luminal breast cancers, each from a distinct patient and cultured without passaging \cite{wells2026}. We use the per-organoid tables released with the authors' code\footnote{\url{https://github.com/JanesLab/WellsCJ_OrganoSeg2}, archive \texttt{Figure 6/excelFilesZip.zip}.}. Each patient's organoids receive 0, 5, or 30~Gy in five daily fractions, one well per dose, and a caspase-3/7 reporter loaded on the first irradiation day is imaged before the first fraction and then through day~14. The 30~Gy course mirrors accelerated partial breast irradiation, and the 5~Gy arm is its de-escalation. Each tracked organoid is one episode. Its state is the reporter reading before the first fraction, its endpoint is the reading at day~14, both as log-ratios to the same patient's 0~Gy organoids as in Schuster, and burden is the total dose. Keeping organoids read at both times gives 708 episodes. Each arm occupies one well per patient, so well effects within a patient are confounded with the arm. We added this slice during revision and analyze it with the protocol unchanged.
+The Wells slice comes from organoids of five luminal breast cancers, each from a distinct patient and cultured without passaging \cite{wells2026}. We use the per-organoid tables released with the authors' code\footnote{\url{https://github.com/JanesLab/WellsCJ_OrganoSeg2}}. Each patient's organoids receive 0, 5, or 30~Gy in five daily fractions, one well per dose, and a caspase-3/7 reporter loaded on the first irradiation day is imaged before the first fraction and then through day~14. The 30~Gy course mirrors accelerated partial breast irradiation, and the 5~Gy arm is its de-escalation. Each tracked organoid is one episode. Its state is the reporter reading before the first fraction, its endpoint is the reading at day~14, both as log-ratios to the same patient's 0~Gy organoids as in Schuster, and burden is the total dose. Keeping organoids read at both times gives 708 episodes. Each arm occupies one well per patient, so well effects within a patient are confounded with the arm. We added this slice during revision and analyze it with the protocol unchanged.
 
 A search of the literature and public data repositories screened 3597 records for this structure and assessed 242 of them against the full text and the released files. A study qualified when it showed the structure in tumor organoids from at least three patients and released well-level data without request. Four studies qualified, namely the three slices above and a 2026 preprint that repeats the Spiller design with a dose series \cite{kim2026}, which is the next replication cohort. The queries and the screening log are released with our code.
 
