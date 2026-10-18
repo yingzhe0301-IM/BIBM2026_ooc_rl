@@ -1,0 +1,6 @@
+out/raw/
+__pycache__/
+.DS_Store
+.idea/
+.claude/
+*.zip

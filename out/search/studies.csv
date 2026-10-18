@@ -1,0 +1,194 @@
+study_id,representative_key,study,C1,C2,C3,C4,category,first_unmet
+Abdullah 2021 lower,PMC:PMC8598514,Abdullah 2021 Lower grade glioma organoid models for treatment response (abstract),unclear,unclear,unclear,unmet,"data not public, design unclear",
+Cancilla 2025 redox,zenodo:20521304,Cancilla 2025 redox-responsive hydrogel chemotherapy in patient-derived pancreatic cancer organoids,unclear,unclear,unclear,unmet,"data not public, design unclear",
+Dhimolea 2021 embryonic,MED:33417832,Dhimolea 2021 embryonic diapause-like adaptation enables tumor treatment persistence (Cancer Cell),met,unclear,met,unmet,"data not public, design unclear",
+Ding 2022 patient,MED:35508177,Ding 2022 patient-derived micro-organospheres for clinical precision oncology (Cell Stem Cell),met,unclear,met,unmet,"data not public, design unclear",
+Kim 2026 engineered,MED:42738913,Kim 2026 engineered MSCs (BM03) in glioblastoma organoids (Cells),met,unclear,met,unmet,"data not public, design unclear",
+Lee 2026 codrp,zenodo:21836283,Lee 2026 CODRP index for hanging-pillar breast cancer PDO drug testing (code),unclear,met,unclear,unmet,"data not public, design unclear",
+Li 2026 physics,MED:42236584,Li 2026 physics-informed deep learning for OCT organoid quantification (NPJ Digit Med),met,unclear,met,unmet,"data not public, design unclear",
+Lin 2025 organoid,github:LinYX-EHBH/Construction-of-organoid-drug-sensitivity-models,"Lin 2025 organoid drug-sensitivity ML models (EHBH, article not identified)",unclear,unclear,unclear,unmet,"data not public, design unclear",
+Lin 2025 single,MED:41423451,Lin 2025 single-cell-derived tumor organoid arrays for CRC drug screening (Microsyst Nanoeng),met,met,unclear,unmet,"data not public, design unclear",
+Luo 2025 label,MED:40464203,Luo 2025 label-free photoacoustic imaging of melanoma organoids (Adv Sci),unclear,met,unclear,unmet,"data not public, design unclear",
+Malinowski 2020 incucyte,PMC:PMC7650475,Malinowski 2020 IncuCyte live-cell drug response of patient-derived GBM spheroids (abstract),met,unclear,met,unmet,"data not public, design unclear",
+Melzer 2024 prospective,figshare:27683840,Melzer 2024 prospective pharmacotyping of urothelial carcinoma organoids,met,met,unclear,unmet,"data not public, design unclear",
+Monda 2026 malignant,zenodo:23424826,Monda 2026 malignant cell-state composition shapes drug response in RCC organoids,unclear,unclear,unclear,unmet,"data not public, design unclear",
+Ota 2026 crc,github:clinfo/ctos-drug-response-networks,Ota 2026 CRC organoid (CTOS) drug-response networks (manuscript),met,unclear,unclear,unmet,"data not public, design unclear",
+Pal 2025 patient,MED:40410759,Pal 2025 patient-derived esophageal adenocarcinoma organ chip (J Transl Med),met,unclear,unclear,unmet,"data not public, design unclear",
+Saulite 2024 pdac,zenodo:14259383,Saulite 2024 PDAC-on-a-chip aptamer-guided extracellular vesicle delivery (project plan),unclear,unclear,unclear,unmet,"data not public, design unclear",
+Strijker 2021 teg002,MED:34575700,Strijker 2021 TEG002 engineered T cells kill neuroblastoma organoids (J Pers Med),met,unclear,met,unmet,"data not public, design unclear",
+Su 2026 gamma,MED:42035083,Su 2026 gamma-delta T cells against breast cancer organoids (J Transl Med),unclear,met,met,unmet,"data not public, design unclear",
+Suvilesh 2023 nsclc,PPR:PPR745891,Suvilesh 2023 NSCLC patient-derived tumor organoids for drug response testing (bioRxiv; Clin Cancer Res 2024),met,unclear,met,unmet,"data not public, design unclear",
+Unknown 2025 label,github:lcong0308-bot/Label-free-AI-driven-Organoid-Viability-Estimation,Unknown 2025 label-free AI organoid viability estimation (article not identified),unclear,unclear,unclear,unmet,"data not public, design unclear",
+Unknown 2026 closed,github:EckermanYarger711/saber,Unknown 2026 closed-loop bio-robotic liver cancer organoid platform (Cyborg Bionic Syst),unclear,unclear,met,unmet,"data not public, design unclear",
+Yuan 2026 deep,MED:41632021,Yuan 2026 deep learning-powered scalable cancer organ chip (Adv Sci),unclear,met,met,unmet,"data not public, design unclear",
+Zhou 2022 cholangiocarcinoma,MED:35597867,Zhou 2022 cholangiocarcinoma organoids with effector T cells,met,unclear,met,unmet,"data not public, design unclear",
+Banda 2020 erlotinib,MED:32898185,Banda 2020 Erlotinib-resistant subpopulations in patient-derived lung tumor spheroids,met,met,met,unmet,"design met, data on request",
+Beelen 2023 adcc,MED:37520563,Beelen 2023 ADCC-inducing antibodies enhance NK cell killing of PDAC organoids,met,met,met,unmet,"design met, data on request",
+Buzzelli 2018 crc,MED:29414601,Buzzelli 2018 CRC liver metastasis organoids acquire chemotherapy resistance,met,met,met,unmet,"design met, data on request",
+Camenisch 2025 gliamimic,PPR:PPR1184764,"Camenisch 2026 GliaMimic longitudinal GBM organoid platform (Research Square v2, JECCR 2026)",met,met,met,unmet,"design met, data on request",
+Cavarzerani 2023 3d,MED:37143603,Cavarzerani 2023 3D dynamic cultures of HGSOC organoids,met,met,met,unmet,"design met, data on request",
+Choo 2021 high,MED:34111999,Choo 2021 high-throughput imaging drug screen of prostate cancer PDX organoids,met,met,met,unmet,"design met, data on request",
+Deben 2023 orbits,MED:36508089,Deben 2023 OrBITS label-free time-lapse PDO drug screening (Cell Oncol),met,met,met,unmet,"design met, data on request",
+Dekkers 2023 behav3d,MED:35879361,Dekkers 2023 BEHAV3D engineered T cells in patient cancer organoids,met,met,met,unmet,"design met, data on request",
+Ferreira 2026 organoidnet,MED:42723059,Ferreira 2026 OrganoIDNet real-time monitoring of CAR T cells in PDAC PDOs (J Transl Med),met,met,met,unmet,"design met, data on request",
+Holthaus 2024 adam17,MED:39286024,Holthaus 2024 ADAM17 inhibition with cisplatin in cervical organoids (Front Oncol),met,met,met,unmet,"design met, data on request",
+Kondo 2019 high,biostudies:S-EPMC6317944,Kondo 2019 high-throughput screening in colorectal cancer tissue-originated spheroids,met,met,met,unmet,"design met, data on request",
+Le Compte 2023 single,MED:38066116,Le Compte 2023 single-organoid analysis of treatment-resistant PDAC subclones (npj Precis Oncol),met,met,met,unmet,"design met, data on request",
+Pinna 2026 low,PPR:PPR1329597,Pinna 2026 low-matrix organoid-T cell co-culture for T cell engagers in CRC PDOs (bioRxiv),met,met,met,unmet,"design met, data on request",
+Sakshaug 2026 imaging,MED:41649500,Sakshaug 2026 imaging-based GR classifier for colorectal tumoroid drug sensitivity (Cancer Res Commun),met,met,met,unmet,"design met, data on request",
+Seghers 2025 pi3k,PPR:PPR1096053,Seghers 2025 PI3K-mTOR partners for KRAS G12D inhibition in PDAC organoids (Research Square),met,met,met,unmet,"design met, data on request",
+Sun 2026 active,MED:41986323,Sun 2026 active-matrix digital microfluidic drug screening of lung cancer PDOs (Microsyst Nanoeng),met,met,met,unmet,"design met, data on request",
+Verissimo 2016 targeting,MED:27845624,Verissimo 2016 targeting mutant RAS in patient-derived CRC organoids by combinatorial screening (eLife),met,met,met,unmet,"design met, data on request",
+Wang 2022 rapid,MED:35985334,Wang 2022 rapid tissue prototyping with micro-organospheres (Stem Cell Reports),met,met,met,unmet,"design met, data on request",
+Deben 2024 normalized,MED:39627437,Deben 2024 Normalized Organoid Growth Rate metric (Commun Biol),met,met,met,unclear,"design met, per-well data unconfirmed",
+Ehlen 2026 lung,github:ehlenl-hub/lung-tumoroid-CAR-T-platform,Ehlen 2026 lung tumoroids for precision CAR T cell therapy (Nat Biomed Eng),met,met,met,unclear,"design met, per-well data unconfirmed",
+Le Compte 2022 multiparametric,MED:36622028,Le Compte 2022 multiparametric PDTO drug screening with widefield live-cell imaging (JoVE),met,met,met,unclear,"design met, per-well data unconfirmed",
+Yang 2026 pdac,MED:41786221,Yang 2026 PDAC organoid chemo- and radiotherapy timing models (Radiother Oncol),met,met,met,unclear,"design met, per-well data unconfirmed",
+Ahmed 2026 hnc,PPR:PPR1212619,Ahmed 2026 HNC patient-specific microphysiological system for chemoradiation (bioRxiv),unclear,met,unmet,unmet,design unmet,C3
+Alieva 2024 behav3d,dryad:doi:10.5061/dryad.3n5tb2rp6,"Alieva 2024 BEHAV3D live-imaging protocol (Nat Protoc, example data from Dekkers 2022)",unmet,unmet,met,met,design unmet,C1
+Amereh 2025 gbm,MED:40285641,Amereh 2025 GBM tumoroid-on-chip with iron chelators and temozolomide (Adv Sci),unmet,met,unclear,unmet,design unmet,C1
+Anameriç 2025 scaffold,MED:41090771,Anameriç 2025 scaffold-based HNC tumoroid drug testing (Cells),met,unmet,met,unmet,design unmet,C2
+Ao 2022 acoustically,MED:35611994,Ao 2022 Acoustically assembled patient-derived cell clusters for tumor-immune profiling,met,unmet,met,unmet,design unmet,C2
+Bang 2025 vascularized,MED:40455090,Bang 2025 vascularized HNC tumor spheroid chip (Biomed Microdevices),unmet,unmet,unclear,unmet,design unmet,C1
+Bayer 2023 multi,zenodo:12740809,Bayer 2023 multi-organ-chip gastric tumor organoids with liver spheroids (abstract),unmet,unclear,met,unmet,design unmet,C1
+Becker 2022 raman,MED:35805961,Becker 2022 Raman and FLIM monitoring of drug treatment in bladder cancer organoids,unmet,met,unclear,unmet,design unmet,C1
+Betge 2022 drug,github:boutroslab/Supp_BetgeRindtorff_2021,Betge 2022 drug-induced phenotypic landscape of CRC organoids (Nat Commun),met,met,unmet,unmet,design unmet,C3
+Bilbao 2021 epigenetic,MED:34827710,Bilbao 2021 epigenetic therapy plus chemotherapy in 3D HGSC spheroids (Biomolecules),unmet,unclear,met,met,design unmet,C1
+Broekgaarden 2018 neoadjuvant,MED:29560127,Broekgaarden 2018 neoadjuvant photodynamic therapy augments oxaliplatin in pancreatic cancer organoids (Oncotarget),unmet,met,unclear,unmet,design unmet,C1
+Buehler 2022 apex,MED:35652106,Buehler 2022 Apex imaging and SSDquant for glioma organoid viability,unmet,unmet,unmet,unmet,design unmet,C1
+Chen 2022 organoid,MED:35425715,Chen 2022 organoid-derived 5-FU resistance biomarker predicts CRC survival (Front Oncol),met,unmet,met,unmet,design unmet,C2
+Chen 2025 atorvastatin,MED:41455776,Chen 2025 atorvastatin in high-risk colorectal adenoma organoids (Sci Rep),met,unmet,met,unmet,design unmet,C2
+Chen 2026 ros,PMC:PMC13655175,Chen 2026 ROS-autocatalytic nanoplatform for glioblastoma (Nat Commun),unclear,unmet,unmet,unmet,design unmet,C2
+Cheng 2026 flot,MED:42536653,Cheng 2026 FLOT/FOLFOX effects in gastric cancer PDOs (Int J Immunopathol Pharmacol),met,unmet,met,unmet,design unmet,C2
+Close 2025 miniaturized,MED:39662672,Close 2025 Miniaturized HCC tumor organoid cultures for drug discovery,unmet,met,unclear,unmet,design unmet,C1
+Colling 2024 multiplexed,MED:38251777,Colling 2024 multiplexed live-cell imaging of PDO drug responses (JoVE),unmet,met,met,unmet,design unmet,C1
+Cromwell 2022 multifunctional,MED:35124274,Cromwell 2022 Multifunctional profiling of TNBC patient-derived tumoroids,unmet,met,unclear,unclear,design unmet,C1
+Cui 2025 pituitary,zenodo:10912295,Cui 2025 pituitary neuroendocrine tumor organoids for drug screening,met,met,unmet,unmet,design unmet,C3
+DeStefanis 2022 baseline,MED:35338174,DeStefanis 2022 baseline culture conditions and single-organoid response tracking (Sci Rep),unmet,met,met,unmet,design unmet,C1
+Dekkers 2022 engineered,bioimage_archive:S-BIAD448,"Dekkers 2022 engineered T cells in patient cancer organoids (BEHAV3D, Nat Biotechnol)",met,unmet,met,met,design unmet,C2
+Doerfler 2025 hnscc,github:HCC-data-sciences-pub/HNSCC-PDO-integrative-analysis,Doerfler 2025 HNSCC PDOs with AI pathology and genomics (Oral Oncol),unclear,met,unmet,unmet,design unmet,C3
+Doffe 2022 high,MED:36654822,Doffe 2022 high-throughput droplet microfluidic model for clinical screening,unmet,met,met,unmet,design unmet,C1
+Esmaeilishirazifard 2026 realtime,MED:42202786,Esmaeilishirazifard 2026 RealTime-Glo viability screening of PDTX-derived breast tumor cells (Cell Rep Methods),unmet,met,met,unclear,design unmet,C1
+Fang 2024 breast,MED:39499082,Fang 2024 breast cancer organoid microarray for adriamycin resistance (Anal Chem),met,met,unmet,unclear,design unmet,C3
+Fang 2026 pharmaco,github:ChrisFang96/Pharmaco-genomic-characterization-of-pancreatic-and-biliary-tract-cancer-tumoroids-code,Fang 2026 pharmaco-genomics of pancreatic and biliary tract tumoroids (iScience),met,met,unmet,unmet,design unmet,C3
+Favreau 2020 label,MED:32499946,Favreau 2020 label-free SPIM redox imaging of patient-derived organoids (Biomed Opt Express),unmet,unmet,unmet,unmet,design unmet,C1
+Fernandez-Mateos 2023 epigenetic,PPR:PPR760991,"Fernandez-Mateos 2023 epigenetic heritability of plasticity in CRC organoid drug resistance (bioRxiv, Cancer Res 2025)",unmet,unmet,unclear,unclear,design unmet,C1
+Ferreira 2025 organoidnet,MED:38805131,Ferreira 2025 OrganoIDNet for PDAC organoid-PBMC co-cultures (Cell Oncol),unmet,met,met,unclear,design unmet,C1
+Gall-Mas 2026 single,zenodo:17911214,Gall-Mas 2026 single-cell signatures guide carboplatin combinations in HGSC (preprint),unmet,met,unmet,unmet,design unmet,C1
+Gil 2021 oct,MED:34457380,Gil 2021 OCT volumetric growth tracking of patient-derived cancer organoids,unmet,unmet,met,unmet,design unmet,C1
+Gil 2021 wide,MED:33754540,Gil 2021 Wide-field one-photon redox imaging of PCO treatment response,unmet,unmet,met,unmet,design unmet,C1
+Gillette 2021 autofluorescence,MED:33919802,Gillette 2021 Autofluorescence imaging of treatment response in GEP-NET organoids,met,unmet,unmet,unmet,design unmet,C2
+Gillette 2024 wide,PPR:PPR959323,Gillette 2024 wide-field optical redox imaging with leading-edge detection of CRC organoids (bioRxiv),unclear,unmet,met,unmet,design unmet,C2
+Gillette 2025 wide,MED:40920506,Gillette 2025 wide-field optical redox imaging with leading-edge detection in PDCOs (Cancer Res),met,unmet,met,unmet,design unmet,C2
+Hadj Bachir 2022 folfirinox,MED:34561874,Hadj Bachir 2022 FOLFIRINOX-resistant pancreatic adenocarcinoma organoid model,unmet,unclear,unclear,unclear,design unmet,C1
+Hata 2026 chemotherapy,PPR:PPR1255229,Hata 2026 chemotherapy-tolerant persister clones in tongue cancer organoids (bioRxiv),met,unmet,met,unmet,design unmet,C2
+Hipwood 2026 matrix,MED:42311411,Hipwood 2026 matrix-embedded osteosarcoma organoids and doxorubicin (Front Pharmacol),unmet,met,unmet,unmet,design unmet,C1
+Hossan 2023 spatial,MED:36671664,Hossan 2023 spatial alignment of organoids tracking subclonal chemoresistance (Bioengineering),met,unmet,met,unmet,design unmet,C2
+Hsu 2026 automated,MED:41708789,Hsu 2026 automated wide-field optical redox imaging pipeline for PDCOs (Sci Rep),unmet,met,met,unmet,design unmet,C1
+Iyer 2023 high,PPR:PPR655813,Iyer 2023 high-dose short-term osimertinib in mCRC organoids (Research Square; BJC Reports 2024),met,met,unmet,unclear,design unmet,C3
+Jenkins 2018 ex,MED:29101162,Jenkins 2018 ex vivo PD-1 blockade profiling with organotypic tumor spheroids (Cancer Discov),unclear,unmet,unclear,unmet,design unmet,C2
+Jungwirth 2026 meningioma,zenodo:18366013,Jungwirth 2026 meningioma tumor organoid drug screening exposes panobinostat vulnerability,met,met,unmet,unmet,design unmet,C3
+Karadimov 2026 tr,PMC:PMC13640636,Karadimov 2026 TR-107 ClpP agonist in adrenocortical carcinoma models (bioRxiv),unmet,met,met,unmet,design unmet,C1
+Kholosy 2021 neuroblastoma,MED:34575646,Kholosy 2021 Neuroblastoma and DIPG organoid-immune coculture system,met,met,unmet,unmet,design unmet,C3
+Kim 2020 cell,MED:32349587,Kim 2020 cell versus organoid-level analysis of CRC PDTO growth and drug response,unmet,met,met,unmet,design unmet,C1
+Koch 2022 label,MED:36429040,Koch 2022 label-free imaging of cholangiocarcinoma organoids after sorafenib,unmet,met,met,unmet,design unmet,C1
+Kong 2026 pdos,github:happyclamber/pdac-organoid-manuscript,Kong 2026 PDOs predict treatment response in PDAC (manuscript code),unmet,unmet,unmet,unmet,design unmet,C1
+Kurzbach 2025 3d,zenodo:14918384,Kurzbach 2025 3D patterned PDAC organoid model (patternoids),unmet,unclear,unclear,unmet,design unmet,C1
+Lai 2020 pancreatic,MED:33692660,Lai 2020 Pancreatic patient organoids with organ-on-a-chip vasculature,unmet,met,unmet,unmet,design unmet,C1
+Larsen 2021 pan,MED:34320344,Larsen 2021 Pan-cancer organoid platform for precision medicine,met,met,unmet,unmet,design unmet,C3
+Lee 2022 dormancy,MED:35328625,Lee 2022 dormancy mechanism of castration resistance in bone metastatic prostate cancer organoids,unmet,unmet,met,unmet,design unmet,C1
+Leto 2023 bcl,zenodo:7808230,Leto 2023 BCL-XL blockade deepens cetuximab response in mCRC patient-derived models,met,unmet,unmet,unmet,design unmet,C2
+Li 2022 high,MED:35619149,Li 2022 Z-stack calcein imaging assay for organoid drug screening (Stem Cell Res Ther),unclear,unmet,met,unmet,design unmet,C2
+Li 2023 olig2,PPR:PPR673597,Li 2023 OLIG2 inhibitor CT-179 against SHH medulloblastoma recurrence (preprint),met,unmet,unmet,unclear,design unmet,C2
+Li 2026 galactosidase,MED:42080352,Li 2026 β-galactosidase-activated probe for chemotherapy efficacy in ovarian cancer organoids (Anal Chem),unclear,unclear,unmet,unclear,design unmet,C3
+Li 2026 midkine,figshare:32048984,Li 2026 midkine as prognostic and therapeutic target in meningioma organoids,met,unmet,unclear,unmet,design unmet,C2
+Liao 2024 cd3xher2,MED:39138287,Liao 2024 CD3xHER2 bispecific antibodies in ECM-embedded breast tumoroid arrays (Commun Biol),unmet,met,unclear,unclear,design unmet,C1
+Liu 2024 lung,MED:38896792,Liu 2024 Lung cancer organoids with function-associated scRNA-seq,met,unmet,unmet,unmet,design unmet,C2
+Liu 2024 nanoplasmonic,MED:38924371,Liu 2024 nanoplasmonic single-tumoroid microarray for real-time secretion analysis (Adv Sci),met,unmet,unclear,unmet,design unmet,C2
+Liu 2026 ivacaftor,MED:41487693,Liu 2026 ivacaftor repurposing in ROR1-expressing HGSOC (Ther Adv Med Oncol),unmet,unmet,met,unmet,design unmet,C1
+Logun 2025 glioblastoma,MED:39657679,Logun 2025 glioblastoma organoid avatars for CAR-T therapy (Cell Stem Cell),met,unmet,met,unmet,design unmet,C2
+Lê 2023 vascularized,MED:37860774,Lê 2023 Vascularized immunocompetent patient-derived lung tumoroids,met,unmet,unmet,unmet,design unmet,C2
+Ma 2026 toyocamycin,MED:41314261,Ma 2026 toyocamycin screen in TNBC organoids (Toxicol Appl Pharmacol),unmet,met,met,unclear,design unmet,C1
+Majc 2024 glioblastoma,zenodo:13354119,Majc 2024 glioblastoma organoids mimic treatment-induced DNA damage response,met,unmet,unmet,unmet,design unmet,C2
+Matthews 2022 organoid,MED:36350878,Matthews 2022 OrganoID deep learning single-organoid tracking,unmet,met,met,unclear,design unmet,C1
+Matthews 2023 drug,PPR:PPR732239,Matthews 2023 drug repurposing screen finds efavirenz cytotoxic in HGSOC (Authorea; Mol Ther Oncol 2024),met,met,unmet,unmet,design unmet,C3
+Maulana 2023 solid,PPR:PPR692162,Maulana 2023 solid tumor-on-chip for CAR-T efficacy and safety (bioRxiv; Cell Stem Cell 2024),met,unmet,met,unmet,design unmet,C2
+Meißner 2026 th17,MED:42294482,Meißner 2026 Th17 immunity in HNSCC PDO-PBMC co-cultures (Immuno-Oncol Technol),met,unmet,met,unmet,design unmet,C2
+Mercadante 2025 ovarian,PPR:PPR986212,Mercadante 2025 ovarian cancer PDO platform for NK cell susceptibility (bioRxiv; npj Precis Oncol),unmet,unmet,met,met,design unmet,C1
+Morelli 2024 regorafenib,MED:38534332,Morelli 2024 Regorafenib responsiveness in recurrent glioblastoma explant organoids,met,unmet,unmet,unmet,design unmet,C2
+Mun 2026 pooled,MED:42343402,Mun 2026 pooled PBMC and gastric cancer organoid co-culture with PD-1 blockade (BMC Med),met,met,unmet,unmet,design unmet,C3
+Nam 2026 iorganoassay,zenodo:20351867,Nam 2026 iOrganoAssay microscopy dataset of mouse intestinal organoids,unmet,unclear,met,met,design unmet,C1
+Nguyen 2024 cnf,github:PNNL-CompBio/cNFDrugScreening,Nguyen 2024 cNF organoid screening platform (PNNL multi-omics follow-up),met,met,unmet,unmet,design unmet,C3
+Nomdedeu-Sancho 2026 rapid,PMC:PMC13300543,Nomdedeu-Sancho 2026 rapid 3D melanoma-skin organoid for tumor dynamics and drug response,unmet,unmet,met,unmet,design unmet,C1
+Novak 2026 trametinib,bioimage_archive:S-BIAD3075,Novak 2026 trametinib in metastatic GBM patient-derived avatars,unmet,unmet,unmet,unmet,design unmet,C1
+Oliveira 2025 epigenetic,zenodo:11058999,Oliveira 2025 epigenetic heritability of cell plasticity drives CRC organoid drug resistance,unmet,met,unmet,unmet,design unmet,C1
+Ostrop 2021 epigenetic,github:lycheebbe/organoid-temporal-prediction,"Ostrop 2021 epigenetic probe screen in mouse intestinal organoids (IDR idr0092, reanalysis repo)",unmet,unmet,met,met,design unmet,C1
+Paindelli 2019 engineered,MED:30682644,Paindelli 2019 engineered bone for prostate cancer tumoroid therapy response (Biomaterials),unmet,unclear,met,unmet,design unmet,C1
+Papaccio 2023 proteotranscriptomic,figshare:26559470,Papaccio 2023 proteotranscriptomic analysis of advanced CRC PDOs for drug sensitivity,met,met,unmet,unmet,design unmet,C3
+Park 2025 bcl,github:swspark/manuscript-code,Park 2025 BCL-xL radiosensitization in RMS tumoroids (manuscript code),met,met,unmet,unmet,design unmet,C3
+Park 2026 gbm,github:SGMedical/GBO,Park 2026 GBM PDOs predict personalized drug response (Cell Rep Med),met,met,unmet,unmet,design unmet,C3
+Park 2026 glioblastoma,MED:41240680,Park 2026 glioblastoma-midbrain assembloid electrophysiological sensor,unmet,unclear,met,unclear,design unmet,C1
+Phanthaphol 2026 msln,MED:42363170,Phanthaphol 2026 MSLN CAR-T secreting anti-PD-L1 scFv against CRC PDOs (BMC Med),met,unclear,unmet,unmet,design unmet,C3
+Ponsioen 2021 single,MED:33795873,Ponsioen 2021 single-cell ERK dynamics in CRC organoids (Nat Cell Biol),met,unmet,met,unclear,design unmet,C2
+Pscheid 2023 3d,MED:37294309,Pscheid 2023 3D tumor-microenvironment models for T cell therapy efficacy,unmet,unmet,met,unmet,design unmet,C1
+Ratcliffe 2025 reversible,PPR:PPR1032189,Ratcliffe 2025 reversible basal-like state in AKT-inhibitor resistant TNBC organoids (bioRxiv),unmet,met,met,unclear,design unmet,C1
+Risbridger 2021 lewis,PMC:PMC8089198,Risbridger 2021 Lewis Y CAR T cells in patient-derived prostate cancer models (ENDO abstract),met,unmet,met,unmet,design unmet,C2
+Roh 2024 label,MED:39083897,Roh 2024 label-free SLAM microscopy predicts DNA damage response in NSCLC organoids,met,unmet,met,unmet,design unmet,C2
+Russell 2024 npl,bioimage_archive:S-BSST325,Russell 2024 NPL-Cellesce CRC organoid reference dataset (no linked article),unmet,met,unclear,unclear,design unmet,C1
+Sato 2026 cycling,PPR:PPR1249688,Sato 2026 cycling persister clones in tongue cancer organoids (bioRxiv),met,unmet,met,unmet,design unmet,C2
+Savary 2023 fusion,MED:38118405,Savary 2023 Fusion-negative rhabdomyosarcoma organoids to predict drug combinations,met,unmet,met,unmet,design unmet,C2
+Shao 2025 organoid,MED:41267460,Shao 2025 organoid-based two-step GR drug screening in ESCC,met,met,unmet,unmet,design unmet,C3
+Sharick 2019 optical,PPR:PPR69101,"Sharick 2019 optical metabolic imaging of pancreatic cancer patient organoids (bioRxiv, preprint of Sharick 2020)",met,unmet,unclear,unmet,design unmet,C2
+Sharick 2020 metabolic,MED:32500020,Sharick 2020 metabolic heterogeneity in patient tumor organoids by primary site and drug (Front Oncol),met,unmet,unclear,unmet,design unmet,C2
+Shirure 2018 tumor,MED:30393802,Shirure 2018 Tumor-on-a-chip with patient-derived breast cancer organoids,unmet,unmet,unclear,unmet,design unmet,C1
+Song 2022 monoclonal,MED:35691158,Song 2022 monoclonal colon cancer organoids from four lesions of one patient,unmet,unclear,unclear,unclear,design unmet,C1
+Sorzabal-Bellido 2025 pdac,zenodo:18756998,Sorzabal-Bellido 2025 PDAC organoids in mixed-composition hydrogels,unmet,met,unmet,unmet,design unmet,C1
+Soubéran 2025 brain,MED:39252580,Soubéran 2025 brain tumoroids for treatment prediction (Neuro-Oncology),met,unmet,met,unmet,design unmet,C2
+Swanson 2026 dynamic,PMC:PMC13660629,Swanson 2026 dynamic OCT of irradiated prostate tumor spheroids (J Biomed Opt),unmet,met,unmet,unmet,design unmet,C1
+Tavakoli 2025 metabolic,MED:39875420,Tavakoli 2025 metabolic modeling and FLIM screening of hexokinase in CRC organoids (NPJ Syst Biol Appl),unmet,met,unmet,unclear,design unmet,C1
+Tebon 2023 bioprinting,MED:37280220,Tebon 2023 bioprinting and interferometry single-organoid screening (Nat Commun),unmet,met,met,met,design unmet,C1
+Teijeira 2022 colon,MED:35154495,Teijeira 2022 colon cancer organoids model response to CEA-CD3 T-cell engagers,met,unmet,met,unmet,design unmet,C2
+Terrassoux 2025 diffuse,MED:41020338,Terrassoux 2025 diffuse midline glioma-on-chip therapy response heterogeneity (Small),unmet,unclear,met,unmet,design unmet,C1
+Trettner 2024 saavy,MED:38566822,Trettner 2024 SAAVY label-free viability analysis of 3D spheroids (APL Bioeng),unmet,met,met,met,design unmet,C1
+Tsukamoto 2025 live,MED:39731327,Tsukamoto 2025 live imaging of ERK and AMPK in PDAC organoids (Cancer Sci),met,unmet,met,unmet,design unmet,C2
+Ubink 2019 peritoneal,MED:31197820,Ubink 2019 Peritoneal metastasis organoids for improving HIPEC,met,met,unmet,unmet,design unmet,C3
+Valle 2026 colon,MED:42511770,Valle 2026 colon cancer organoid-on-a-chip for therapy assessment (Int J Mol Sci),unmet,met,met,unmet,design unmet,C1
+Van Hemelryk 2021 3d,MED:34827570,Van Hemelryk 2021 3D environment impacts prostate cancer organoid drug testing,unmet,met,unmet,unmet,design unmet,C1
+Van Hemelryk 2023 viability,MED:37408211,Van Hemelryk 2023 viability and live-cell imaging drug testing in prostate cancer PDX organoids,met,met,unmet,unmet,design unmet,C3
+Veith 2024 patient,MED:38703767,Veith 2024 patient-derived lung tumor-on-chip anti-PD-1 response (Cell Rep Med),unclear,unmet,met,unmet,design unmet,C2
+Walsh 2016 optical,MED:26495796,Walsh 2016 Optical metabolic imaging of drug response in murine and human pancreatic organoids,unmet,unmet,unmet,unmet,design unmet,C1
+Wang 2020 gravitational,MED:32861031,Wang 2020 gravitational microfluidic platform for colorectal perfused tumoroid drug assay (Nanomedicine),unmet,unclear,unclear,unclear,design unmet,C1
+Wang 2022 rdau,MED:36588731,Wang 2022 RDAU-Net segmentation for bladder cancer organoid drug screening (Front Pharmacol),unmet,unmet,unclear,unmet,design unmet,C1
+Wang 2024 glioblastoma,PMC:PMC11553706,Wang 2024 glioblastoma organoids as real-time avatars for CAR-T therapy (SNO abstract TMOD-02),met,unmet,met,unmet,design unmet,C2
+Wang 2026 gravity,MED:41922471,Wang 2026 gravity-driven organoid perfusion platform for TNBC drug testing (Commun Biol),unmet,met,met,met,design unmet,C1
+Wierbilowicz 2026 drug,github:Karlsson-Laboratory/Comparative-Drug-Response-Profiling-in-Neuroblastoma-Cell-Lines-and-Patient-Derived-Tumor-Organoids,Wierbilowicz 2026 drug profiling in neuroblastoma cell lines and PDTOs (Pediatr Blood Cancer),met,met,unmet,unmet,design unmet,C3
+Wimmer 2026 vascularized,PPR:PPR1227859,Wimmer 2026 vascularized tumor organoids (VascO) for immunotherapy testing (bioRxiv),unclear,met,unmet,unmet,design unmet,C3
+Wold 2026 functional,PPR:PPR1213878,Wold 2026 functional drug testing of breast cancer brain metastasis PDOs (bioRxiv),met,met,unmet,unclear,design unmet,C3
+Wu 2023 acoustofluidic,MED:36739414,Wu 2023 acoustofluidic tumor cell clusters for immunotherapy testing (J Nanobiotechnol),unclear,unmet,met,unmet,design unmet,C2
+Wu 2026 masea,MED:41764903,Wu 2026 MASEA microfluidic angiogenesis assay in PDO-endothelial co-culture (Biosens Bioelectron),met,unmet,met,unclear,design unmet,C2
+Wächtershäuser 2024 iap,PPR:PPR902993,Wächtershäuser 2024 IAP inhibition in metastatic breast cancer organoids (bioRxiv),met,unmet,met,unmet,design unmet,C2
+Wächtershäuser 2026 necroptosis,MED:42225663,Wächtershäuser 2026 necroptosis in patient-derived metastatic breast cancer organoids (Signal Transduct Target Ther),met,unmet,met,unmet,design unmet,C2
+Xu 2025 gd2,MED:41230904,Xu 2025 GD2-CAR microglia in retinoblastoma organoids (IOVS),unmet,unmet,unclear,unmet,design unmet,C1
+Xu 2025 rectal,MED:41045935,Xu 2025 rectal cancer organoid responses to chemoradiation (Cell Rep Med),met,unmet,met,unclear,design unmet,C2
+Yakavets 2025 ml,MED:40737392,Yakavets 2025 ML-guided multidrug regimens on organoid arrays (Sci Adv),unmet,met,met,unmet,design unmet,C1
+Yalcin 2026 mcrc,PPR:PPR1226322,Yalcin 2026 mCRC organoid high-content screening and pan-KRAS resistance (bioRxiv),met,unmet,unmet,unmet,design unmet,C2
+Yan 2023 lipofuscin,MED:36566738,Yan 2023 lipofuscin-like autofluorescence imaging predicts drug response,unmet,met,unclear,unmet,design unmet,C1
+Yang 2026 oct,MED:42460364,Yang 2026 OCT attenuation-based longitudinal drug response of iCCA organoids (Biomed Opt Express),unmet,met,met,unmet,design unmet,C1
+Zhang 2023 oct,MED:37078050,Zhang 2023 OCT aggregated morphological indicators for PDO drug response,met,unmet,met,unmet,design unmet,C2
+Zhang 2024 dual,MED:38352981,Zhang 2024 dual-functional chip for EGFR detection and lung PDO drug testing (Lab Chip),unmet,met,met,unmet,design unmet,C1
+Zhang 2024 microfluidic,MED:38833634,Zhang 2024 microfluidic system for whole-course organoid ATP monitoring (Anal Chem),unmet,unclear,met,unclear,design unmet,C1
+Zhang 2026 nanomechanical,MED:42579611,Zhang 2026 nanomechanical vibrations of gastric cancer organoids under drugs (Adv Sci),met,unmet,unmet,unclear,design unmet,C2
+Zhao 2026 male,MED:42046812,Zhao 2026 male breast cancer organoid case report with hormone receptor loss (J Transl Intern Med),unmet,met,unmet,unmet,design unmet,C1
+Zhao 2026 sequential,PMC:PMC13657817,Zhao 2026 sequential therapy responses in HR+/HER2-low breast cancer PDOs,unmet,met,unmet,unclear,design unmet,C1
+de Witte 2020 ovarian,github:UMCUGenetics/OvCa_organoids_heterogeneity,de Witte 2020 ovarian cancer PDOs mimic clinical response (Cell Rep),met,met,unmet,unmet,design unmet,C3
+von Kries 2025 crc,MED:41360426,von Kries 2025 CRC organoid NK cell co-culture (J Immunother Cancer),met,unmet,met,unmet,design unmet,C2
+Ruan 2026 vascularized,MED:41198016,Ruan 2026 vascularized cervical cancer organoid chip with real-time ELISA (Cancer Lett),unclear,unclear,met,unclear,full text not accessible,
+Sari 2025 proteasome,MED:40695045,Sari 2025 proteasome inhibitors in chemoresistant TNBC organoids (Biomed Pharmacother),unclear,unclear,unclear,unclear,full text not accessible,
+Wu 2022 96,MED:35231786,Wu 2022 96-GLAnCE microgels quantify tumor cell growth and regrowth after therapy,unclear,unclear,met,unclear,full text not accessible,
+Yan 2025 organoid,MED:41166099,Yan 2025 organoid biosensing platform for bladder cancer prognosis (ACS Nano),met,unclear,met,unclear,full text not accessible,
+Zhang 2023 real,MED:37524457,Zhang 2023 real-time ATP monitoring in human cancer organoids by DNA nanosensor,unclear,unclear,met,unclear,full text not accessible,
+Zhao 2026 ezh2,MED:42209314,Zhao 2026 EZH2 inhibition primes bladder cancer PDOs for afatinib (Eur Urol Oncol),met,unclear,unclear,unclear,full text not accessible,
+Kim 2026 scope,PPR:PPR1289519,Kim 2026 SCOPE phenotypic drug response modelling in PDOs (bioRxiv),met,met,met,met,meets all four,
+Schuster 2020 automated,MED:33077832,Schuster 2020 Automated microfluidic platform for dynamic and combinatorial organoid drug screening,met,met,met,met,meets all four,
+Spiller 2021 imaging,MED:34993134,Spiller 2021 Imaging-based machine learning analysis of PDO drug response,met,met,met,met,meets all four,
+Wells 2026 organoseg2,MED:41663503,Wells 2026 OrganoSeg2 single-organoid tracking of radiation response in luminal breast cancer organoids (Sci Rep),met,met,met,met,meets all four,

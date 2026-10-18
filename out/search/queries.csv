@@ -1,0 +1,12 @@
+source,query,run_date,hits,retrieved
+Europe PMC titles and abstracts,"TITLE_ABS:(organoid* OR tumoroid*) AND TITLE_ABS:(cancer* OR tumor* OR tumour* OR carcinoma* OR neoplas* OR malignan* OR oncolog* OR adenocarcinoma* OR glioblastoma* OR glioma* OR sarcoma* OR melanoma* OR leukem* OR lymphoma*) AND TITLE_ABS:(drug* OR chemotherap* OR treatment* OR therap* OR dose* OR dosing OR schedul* OR inhibitor* OR compound* OR agent*) AND TITLE_ABS:(""time-lapse"" OR ""time lapse"" OR timelapse OR ""live-cell"" OR ""live cell"" OR ""live imaging"" OR longitudinal* OR kinetic* OR ""real-time"" OR ""real time"" OR ""time course"" OR ""time-course"" OR ""time-resolved"" OR timepoint* OR ""time point"" OR ""time points"" OR track* OR dynamic* OR temporal* OR ""non-destructive"" OR nondestructive OR ""label-free"" OR ""over time"" OR sequential* OR microfluidic* OR ""on-a-chip"" OR ""on-chip"") AND PUB_YEAR:[2009 TO 2026]",2026-10-17,2003,2003
+Europe PMC full text,"(organoid* OR tumoroid*) AND (""patient-derived"" OR ""patient derived"") AND (""time-lapse"" OR ""time lapse"" OR incucyte OR ""live-cell imaging"" OR ""live cell imaging"" OR kinetic) AND (""source data"" OR zenodo OR figshare OR ""github.com"" OR dryad OR ""mendeley data"" OR ""image data resource"" OR ""bioimage archive"") AND (drug* OR chemotherap*) AND PUB_YEAR:[2009 TO 2026]",2026-10-17,589,589
+Europe PMC citations of Schuster 2020,MED:33077832,2026-10-17,315,315
+Europe PMC citations of Spiller 2021,MED:34993134,2026-10-17,39,39
+Zenodo,(organoid OR organoids OR tumoroid OR tumoroids) AND (drug OR drugs OR chemotherapy OR treatment OR dose OR inhibitor),2026-10-17,388,388
+Figshare,"""organoid"" AND ""drug"" | ""organoid"" AND ""chemotherapy"" | ""organoid"" AND ""dose"" | ""tumoroid"" AND ""drug""",2026-10-18,143,143
+Dryad,organoid,2026-10-18,36,36
+BioImage Archive,organoid,2026-10-18,38,38
+BioStudies,"""organoid"" AND ""drug"" AND (""time-lapse"" OR ""time course"" OR ""live"")",2026-10-18,39,39
+Image Data Resource,organoid in study name or description,2026-10-18,6,6
+GitHub repositories,organoid drug | organoid response | organoid viability | organoid time-lapse | organoid tracking | tumoroid,2026-10-18,107,107

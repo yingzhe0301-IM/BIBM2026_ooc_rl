@@ -1,0 +1,49 @@
+dataset,patient,family,arm,wells
+Schuster,1,FOLFIRI,high,3
+Schuster,1,FOLFIRI,low,3
+Schuster,1,FOLFIRINOX,high,2
+Schuster,1,FOLFIRINOX,low,3
+Schuster,1,FOLFOX,high,3
+Schuster,1,FOLFOX,low,3
+Schuster,1,Gemcitabine + 5FU,high,3
+Schuster,1,Gemcitabine + 5FU,low,3
+Schuster,2,FOLFIRI,high,3
+Schuster,2,FOLFIRI,low,3
+Schuster,2,FOLFIRINOX,high,3
+Schuster,2,FOLFIRINOX,low,3
+Schuster,2,FOLFOX,high,3
+Schuster,2,FOLFOX,low,3
+Schuster,2,Gemcitabine + 5FU,high,3
+Schuster,2,Gemcitabine + 5FU,low,2
+Schuster,3,FOLFIRI,high,4
+Schuster,3,FOLFIRI,low,4
+Schuster,3,FOLFIRINOX,high,4
+Schuster,3,FOLFIRINOX,low,4
+Schuster,3,FOLFOX,high,4
+Schuster,3,FOLFOX,low,4
+Schuster,3,Gemcitabine + 5FU,high,4
+Schuster,3,Gemcitabine + 5FU,low,4
+Spiller,12415,IRI,high,3
+Spiller,12415,IRI,low,3
+Spiller,12415,OXA,high,3
+Spiller,12415,OXA,low,3
+Spiller,12527,IRI,high,3
+Spiller,12527,IRI,low,3
+Spiller,12527,OXA,high,3
+Spiller,12527,OXA,low,3
+Spiller,12620,IRI,high,3
+Spiller,12620,IRI,low,3
+Spiller,12620,OXA,high,3
+Spiller,12620,OXA,low,3
+Spiller,12911,IRI,high,3
+Spiller,12911,IRI,low,3
+Wells,149,IR,high,82
+Wells,149,IR,low,111
+Wells,155,IR,high,94
+Wells,155,IR,low,90
+Wells,157,IR,high,75
+Wells,157,IR,low,80
+Wells,160,IR,high,33
+Wells,160,IR,low,37
+Wells,161,IR,high,53
+Wells,161,IR,low,53
