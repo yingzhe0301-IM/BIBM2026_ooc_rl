@@ -1,6 +1,7 @@
 \ifdefined\pdfminorversion\pdfminorversion=4 \pdfobjcompresslevel=0 \fi % PDF 1.4 (Acrobat 5) for IEEE Xplore
 \documentclass[conference]{IEEEtran}
 
+\usepackage[T1]{fontenc} % underscores in URLs are real glyphs, so the text layer copies them
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
 \usepackage{cite}
@@ -60,7 +61,7 @@ However, learning a full treatment policy across a trajectory would need patient
 
 The estimand is the set of decision-point contexts where treatment burden can be reduced while final killing stays within that margin. Burden means exposure duration or dose, together with the cost, side-effect risk, and resource use they carry. We let the margin grow with the burden a rule saves, priced at an exchange rate that the decision context sets. This construction follows the net-benefit reading of cost-effectiveness analysis, where a less effective but less costly option is acceptable once the cost it saves, valued at a stated threshold, outweighs the effect it gives up \cite{stinnett1998, fenwick2001}. Certification therefore returns a threshold rate, above which the lower-burden rule is non-inferior, and we read it against the rate at which full de-escalation breaks even in the data.
 
-A three-stage protocol produces this threshold by characterizing what the decision-point state supports, ranking lower-burden rules by patient-weighted doubly robust value, and certifying the leading rule under a patient-clustered paired bootstrap bound. Data-calibrated simulations check its error control after candidate selection at three to five patients and size the cohort that confirmation requires. The paper contributes the certification protocol with its operating-characteristic audit, an organoid de-escalation benchmark built from a documented search of public data, certified burden-price thresholds for an exposure-duration rule and a dose-intensity rule, and a replication of the frozen protocol on a radiation cohort.\footnote{Code, processed data, and the search log: \url{https://github.com/yingzhe0301-IM/BIBM2026_ooc_rl}.}
+A three-stage protocol produces this threshold by characterizing what the decision-point state supports, ranking lower-burden rules by patient-weighted doubly robust value, and certifying the leading rule under a patient-clustered paired bootstrap bound. Data-calibrated simulations check its error control after candidate selection at three to five patients and size the cohort that confirmation requires. The paper contributes the certification protocol with its operating-characteristic audit, an organoid de-escalation benchmark built from a documented search of public data, certified burden-price thresholds for an exposure-duration rule and a dose-intensity rule, and a replication of the frozen protocol on a radiation cohort.\footnote{\url{https://github.com/yingzhe0301-IM/BIBM2026_ooc_rl} holds the code, processed data, and search log.}
 
 \section{Related Work}
 
